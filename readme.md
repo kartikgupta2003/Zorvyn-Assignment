@@ -173,6 +173,35 @@ POST /auth/signin
 
 ---
 
+## Additional Enhancements
+
+The following additional features have been implemented to improve the system:
+
+- **Authentication using JWT**
+  - Secure login system using token-based authentication
+  - JWT stored in cookies for session management
+
+- **Pagination Support**
+  - Implemented in record listing and filtering APIs
+  - Helps in handling large datasets efficiently
+
+- **Role-Based Access Control (RBAC)**
+  - Different access levels for Viewer, Analyst, and Admin
+  - Middleware-based authorization
+
+- **Admin Safety Check**
+  - Prevents removal or downgrade of the last remaining admin
+  - Ensures system always has at least one admin user
+
+- **Filtering & Search**
+  - Records can be filtered by type, category, and sorted by date
+  - Case-insensitive category filtering supported
+
+- **Robust Validation & Error Handling**
+  - Input validation for all APIs
+  - Centralized error handling middleware
+
+---
 
 ## Conclusion
 
