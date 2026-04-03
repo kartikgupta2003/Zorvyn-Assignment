@@ -30,12 +30,16 @@ It provides secure APIs for handling transactions, user roles, and dashboard ana
 
 1. Clone the repository
 
+```bash
 git clone <your-repo-link>
 cd <project-folder>
+```
 
 2. Install dependencies
 
+```bash
 npm install
+```
 
 3. Create a `.env` file in root directory
 
@@ -47,7 +51,9 @@ PORT=Backend port
 
 4. Start the server
 
+```bash
 node server.js
+```
 
 ---
 
