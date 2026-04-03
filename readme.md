@@ -115,7 +115,7 @@ POST /auth/signin
 * `POST /records/create` (Admin)  => (To create a new record)
 * `GET /records/fetch` (Analyst+Admin) => (To fetch all records -> paginated request)
 * `GET /records/fetch/:id` (Analyst+Admin) => (To fetch a particular record through it's id)
-* `GET /records/filter` (Analyst+Admin) => (To filter records based on category , type and date)
+* `GET /records/filter` (Analyst+Admin) => (To filter records based on category , type and date -> paginated request)
 * `PATCH /records/update/:id` (Admin) => (To update a particular record)
 * `DELETE /records/delete/:id` (Admin) => (To delete a particular record)
 
